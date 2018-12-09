@@ -1,0 +1,173 @@
+@media (max-width: 767px) and (min-width: 320px) {
+    #cart-popup .modal-header {
+        padding: 0;
+    }
+    #cart-popup .modal-header .close {
+        margin: 5px 10px;
+    }
+    .cartmodal .modal-dialog {
+        width: 94%;
+        padding: 0 3%;
+    }
+    .cartmodal h2 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .cartmodal h2 span {
+        font-weight: 400;
+        color: #999;
+    }
+    .table-view-cart {
+        border: none;
+    }
+    .table-view-cart thead {
+        display: none;
+    }
+    .table-view-cart tr td h4 {
+        font-size: 13px;
+        font-weight: 700;
+        margin: 0 0 10px;
+    }
+    .table-responsive>.table.table-view-cart>thead>tr>th,
+    .table-responsive>.table.table-view-cart>tbody>tr>th,
+    .table-responsive>.table.table-view-cart>tfoot>tr>th,
+    .table-responsive>.table.table-view-cart>thead>tr>td,
+    .table-responsive>.table.table-view-cart>tbody>tr>td,
+    .table-responsive>.table.table-view-cart>tfoot>tr>td {
+        white-space: normal;
+        display: block;
+        clear: both;
+        margin: 0 0 15px;
+    }
+    .table-view-cart .delete-text {
+        font-size: 12px;
+    }
+    .checkout-cart .view-cart .table.table-view-cart tr td {
+        text-align: left;
+    }
+    .shopping-cart-page .view-cart {
+        padding: 10px 10px 30px;
+    }
+    .checkout-cart .view-cart h2 {
+        margin: 0 0 20px;
+        font-size: 12px;
+    }
+    #header .navbar {
+        padding: 0 0 10px;
+    }
+    .navbar .container .sitelogo {
+        margin: 0 auto 10px;
+        text-align: center;
+    }
+    .search-box.search-wrapper .search_block .search-input-wrapper input[type=text] {
+        width: 100%;
+    }
+    .search-box .search_block .search-input-wrapper button {
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 99;
+    }
+    .cart-inner .heading-cart span {
+        display: none;
+    }
+    .cart-top .content {
+        position: absolute;
+    }
+    .search-box.search-wrapper {
+        margin: 0;
+    }
+    .nav-inner .col-md-9.pull-right {
+        width: 100%;
+    }
+    .topbar .quick-top-link {
+        float: none !important;
+        text-align: left !important;
+    }
+    .topbar .hotline span {
+        font-size: 11px;
+        margin-right: 5px;
+    }
+    .topbar .hotline strong {
+        font-size: 11px;
+    }
+    .topbar .quick-top-link .box-user a {
+        text-transform: none;
+    }
+    .topbar .quick-top-link .box-user {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .table-view-cart tr td h4,
+    .table-view-cart .delete-text {
+        display: none;
+    }
+    .table-responsive>.table.table-view-cart>thead>tr>th,
+    .table-responsive>.table.table-view-cart>tbody>tr>th,
+    .table-responsive>.table.table-view-cart>tfoot>tr>th {
+        white-space: nowrap;
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .topbar .quick-top-link {
+        float: none !important;
+        text-align: left;
+    }
+    .Module-154 {
+        display: none;
+    }
+    #header .navbar .navbar-header {
+        float: left;
+    }
+    .navbar .container .sitelogo {
+        margin: 0;
+    }
+    .search-box .search_block .search-input-wrapper button {
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 99;
+    }
+    .cart-top {
+        margin-top: 0;
+    }
+    .navbar {
+        padding: 10px 15px;
+    }
+    .nav-inner {
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .main-menu>ul.nav.navbar-nav>li>ul.dropdown-menu>li>a {
+        padding: 5px 15px 5px 5px !important;
+    }
+    .main-menu>ul.nav.navbar-nav>li>ul.dropdown-menu>li>a:before {
+        content: "\f105";
+        display: inline-block;
+        font-family: 'FontAwesome';
+        margin-right: 5px;
+    }
+    .header-menu .header-list-menu li>ul.sc-menu {
+        padding: 0 0 10px 15px;
+    }
+    .header-menu .header-list-menu li>ul.sc-menu>li {
+        padding: 5px 10px;
+    }
+    .header-menu .header-list-menu li>ul.sc-menu>li>a:after {
+        content: "\f105";
+        display: inline-block;
+        font-family: 'FontAwesome';
+        margin-right: 5px;
+        position: absolute;
+        left: 0;
+    }
+}
